@@ -1,0 +1,40 @@
+{
+  "name": "@halee9/menu",
+  "version": "1.0.0",
+  "description": "All about Menus",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js",
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halee9/graphql.git"
+  },
+  "author": "Ha Lee <halee9@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halee9/graphql/issues"
+  },
+  "homepage": "https://github.com/halee9/graphql#readme",
+  "dependencies": {
+    "config": "^1.24.0",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "express-jwt": "5.1.0",
+    "express-session": "1.14.2",
+    "graphql": "^0.8.2",
+    "lodash": "4.17.4",
+    "mongoose": "^4.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "6.16.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
