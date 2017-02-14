@@ -13,6 +13,7 @@ const RootQuery = new GraphQLObjectType({
   }
 });
 
+
 const RootMutation = new GraphQLObjectType({
   name: 'Mutation',
   description: 'Realize Root Mutation',
